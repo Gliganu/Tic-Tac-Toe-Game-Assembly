@@ -1,0 +1,9 @@
+
+Print_Message MACRO string
+
+	MOV AH,09H
+	LEA DX,string
+    int 21h
+
+ENDM
+
